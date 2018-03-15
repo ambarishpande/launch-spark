@@ -1,0 +1,27 @@
+@base = http://localhost:4040
+@appid= application_1520577795358_0015
+
+GET {{base}}/api/v1/applications
+
+###
+
+GET {{base}}/metrics/json
+Content-Type: application/json
+
+###
+
+GET {{base}}/metrics/master/json
+
+
+###
+
+
+GET {{base}}/metrics/applications/json
+
+###
+
+GET {{base}}/api/v1/applications/{{appid}}/storage/rdd
+
+###
+
+GET {{base}}/api/v1/applications/{{appid}}/stages

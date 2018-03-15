@@ -1,0 +1,143 @@
+{
+  "version": "3.0.0",
+  "gauges": {
+    "application_1520418525884_0038.driver.BlockManager.disk.diskSpaceUsed_MB": {
+      "value": 0
+    },
+    "application_1520418525884_0038.driver.BlockManager.memory.maxMem_MB": {
+      "value": 1644
+    },
+    "application_1520418525884_0038.driver.BlockManager.memory.maxOffHeapMem_MB": {
+      "value": 0
+    },
+    "application_1520418525884_0038.driver.BlockManager.memory.maxOnHeapMem_MB": {
+      "value": 1644
+    },
+    "application_1520418525884_0038.driver.BlockManager.memory.memUsed_MB": {
+      "value": 0
+    },
+    "application_1520418525884_0038.driver.BlockManager.memory.offHeapMemUsed_MB": {
+      "value": 0
+    },
+    "application_1520418525884_0038.driver.BlockManager.memory.onHeapMemUsed_MB": {
+      "value": 0
+    },
+    "application_1520418525884_0038.driver.BlockManager.memory.remainingMem_MB": {
+      "value": 1644
+    },
+    "application_1520418525884_0038.driver.BlockManager.memory.remainingOffHeapMem_MB": {
+      "value": 0
+    },
+    "application_1520418525884_0038.driver.BlockManager.memory.remainingOnHeapMem_MB": {
+      "value": 1644
+    },
+    "application_1520418525884_0038.driver.DAGScheduler.job.activeJobs": {
+      "value": 1
+    },
+    "application_1520418525884_0038.driver.DAGScheduler.job.allJobs": {
+      "value": 1
+    },
+    "application_1520418525884_0038.driver.DAGScheduler.stage.failedStages": {
+      "value": 0
+    },
+    "application_1520418525884_0038.driver.DAGScheduler.stage.runningStages": {
+      "value": 1
+    },
+    "application_1520418525884_0038.driver.DAGScheduler.stage.waitingStages": {
+      "value": 1
+    }
+  },
+  "counters": {
+    "application_1520418525884_0038.driver.HiveExternalCatalog.fileCacheHits": {
+      "count": 0
+    },
+    "application_1520418525884_0038.driver.HiveExternalCatalog.filesDiscovered": {
+      "count": 0
+    },
+    "application_1520418525884_0038.driver.HiveExternalCatalog.hiveClientCalls": {
+      "count": 0
+    },
+    "application_1520418525884_0038.driver.HiveExternalCatalog.parallelListingJobCount": {
+      "count": 0
+    },
+    "application_1520418525884_0038.driver.HiveExternalCatalog.partitionsFetched": {
+      "count": 0
+    }
+  },
+  "histograms": {
+    "application_1520418525884_0038.driver.CodeGenerator.compilationTime": {
+      "count": 0,
+      "max": 0,
+      "mean": 0,
+      "min": 0,
+      "p50": 0,
+      "p75": 0,
+      "p95": 0,
+      "p98": 0,
+      "p99": 0,
+      "p999": 0,
+      "stddev": 0
+    },
+    "application_1520418525884_0038.driver.CodeGenerator.generatedClassSize": {
+      "count": 0,
+      "max": 0,
+      "mean": 0,
+      "min": 0,
+      "p50": 0,
+      "p75": 0,
+      "p95": 0,
+      "p98": 0,
+      "p99": 0,
+      "p999": 0,
+      "stddev": 0
+    },
+    "application_1520418525884_0038.driver.CodeGenerator.generatedMethodSize": {
+      "count": 0,
+      "max": 0,
+      "mean": 0,
+      "min": 0,
+      "p50": 0,
+      "p75": 0,
+      "p95": 0,
+      "p98": 0,
+      "p99": 0,
+      "p999": 0,
+      "stddev": 0
+    },
+    "application_1520418525884_0038.driver.CodeGenerator.sourceCodeSize": {
+      "count": 0,
+      "max": 0,
+      "mean": 0,
+      "min": 0,
+      "p50": 0,
+      "p75": 0,
+      "p95": 0,
+      "p98": 0,
+      "p99": 0,
+      "p999": 0,
+      "stddev": 0
+    }
+  },
+  "meters": {},
+  "timers": {
+    "application_1520418525884_0038.driver.DAGScheduler.messageProcessingTime": {
+      "count": 23,
+      "max": 667.494638,
+      "mean": 25.226929919968594,
+      "min": 0.005783,
+      "p50": 0.434428,
+      "p75": 0.6568149999999999,
+      "p95": 4.829536,
+      "p98": 667.494638,
+      "p99": 667.494638,
+      "p999": 667.494638,
+      "stddev": 125.777435352314,
+      "m15_rate": 0.023079188174648182,
+      "m1_rate": 0.29864463923453793,
+      "m5_rate": 0.06774851204900198,
+      "mean_rate": 0.6151470446249131,
+      "duration_units": "milliseconds",
+      "rate_units": "calls/second"
+    }
+  }
+}

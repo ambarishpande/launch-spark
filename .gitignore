@@ -1,0 +1,6 @@
+target/
+.idea/
+*.log
+*.err
+*.out
+*.iml
